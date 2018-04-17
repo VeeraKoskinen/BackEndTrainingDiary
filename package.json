@@ -1,11 +1,34 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projektin kuvaus: Sovellus johon on mahdollista tallettaa kommentteja/muistiinpanoja harjoituksiin liittyen sekä lisätä kuvia ja videoita. Jos aikaa tämän jälkeen vielä jää, on tarkoitus luoda mahdollisuus lisätä harjoituspäiviä kalenteriin.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Veera",
-  "license": "MIT"
+  "author": "Veera Koskinen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeeraKoskinen/BackEndTrainingDiary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VeeraKoskinen/BackEndTrainingDiary/issues"
+  },
+  "homepage": "https://github.com/VeeraKoskinen/BackEndTrainingDiary#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
 }
