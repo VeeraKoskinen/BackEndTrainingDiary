@@ -3,6 +3,6 @@ Sovellus johon on mahdollista tallettaa kommentteja/muistiinpanoja harjoituksiin
 
 ## Tuntikirjanpito
 | Date | What have I done? :D | Hours |
-| ---- | –------- | -- | 
+| ---- | –-------- | --- |
 | 17.4.18 | I created default modules and controllers for the project and connected in mLab. | 4 |
 
