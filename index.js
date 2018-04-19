@@ -10,7 +10,7 @@ const middleware = require('./utils/middleware')
 const eventsRouter = require('./controllers/events')
 const config = require('./utils/config')
 const usersRouter = require('./controllers/users')
-// const loginRouter = require('./controllers/login')
+const loginRouter = require('./controllers/login')
 
 mongoose
   .connect(config.mongoUrl)
@@ -32,7 +32,7 @@ app.use(middleware.tokenExtractor)
 
 app.use('/api/events', eventsRouter)
 app.use('/api/users', usersRouter)
-// app.use('/api/login', loginRouter)
+app.use('/api/login', loginRouter)
 
 app.use(middleware.error)
 
