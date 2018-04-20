@@ -4,7 +4,7 @@
 | :----:|:-----| :-----|
 | 17.4. | 4    | Loin alustavat kontrollerit ja modulit, sekä yhdistin projektini toimimaan mLabin kanssa. |
 |       | 0,5  | Tuntikirjanpidon säätämistä. |
-| 18.4. | 3,5  | Tietokantataulujen users ja events yhdistäminen. |
+| 18.4. | 3,5  | Tietokantataulujen users ja events yhdistäminen, sekä kirjautuminen valmiuteen (kirjatuminen puuttuu 18.4. commit-teksteistä). |
 | yht   | 8    | | 
 
 ## Työn kuvaus
