@@ -75,4 +75,30 @@ eventsRouter.delete('/:id', async (request, response) => {
   }
 })
 
+eventsRouter.put('/:id', async (request, response) => {
+
+  try {
+    const decodedToken = jwt.verify(request.token, process.env.SECRET)
+    const body = request.body
+    const user = await User.findById(decodedToken.id)
+
+    if (body.title === undefined) {
+      return response.status(400).json({ error: 'title is missing' })
+    }
+
+    const newEventti = {
+      title: body.title,
+      content: body.content,
+      user: user
+    }
+
+    const updatedEventti = await Eventti.findByIdAndUpdate(request.params.id, newEventti, {new: true })
+    response.status(200).json(Eventti.format(updatedEventti))
+
+  } catch (exception) {
+    console.log("Catch: " ,exception)
+    response.status(400).json({ error: 'mallformatted id' })
+  }
+})
+
 module.exports = eventsRouter
