@@ -55,4 +55,24 @@ eventsRouter.post('/', async (request, response) => {
 
 })
 
+eventsRouter.delete('/:id', async (request, response) => {
+  try {
+    const decodedToken = jwt.verify(request.token, process.env.SECRET)
+
+    const eventti = await Eventti.findById(request.params.id)
+    const user = await User.findById(decodedToken.id)
+
+    if ( eventti.user.toString() !== user._id.toString() ){
+      return response.status(401).json({ error: 'You do not have right to remove this item.' })
+    }
+
+    await Eventti.findByIdAndRemove(request.params.id)
+    response.status(400).end()
+
+  } catch (exception) {
+    console.log("Catch, exception: ", exception)
+    response.status(400).send({ error: 'malformatted id' })
+  }
+})
+
 module.exports = eventsRouter
