@@ -14,3 +14,7 @@
 
 ## Työn kuvaus
 Tarkoituksena on luoda harjoituspäiväkirjasovellus, johon on mahdollista liittää kommentteja, kuvija sekä videoita yksittäiseen harjoitukseen liittyen. Jokaisella sovelluksen käyttäjällä on omat tunnukset joilla k'yttäjä pääsee omiin harjoitustietoihinsa käsiksi.
+
+
+### Linkki fronttiin:
+[https://github.com/VeeraKoskinen/FrontEndTrainingDiary][https://github.com/VeeraKoskinen/FrontEndTrainingDiary]
