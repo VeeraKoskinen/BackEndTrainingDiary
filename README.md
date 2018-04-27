@@ -8,8 +8,11 @@
 | 20.4. | 2,0  | Loin eventsRoutterille DELETE ja PUT toiminnot. |
 | 25.4. | 2    | Toteutin frontin puolelle sisäänkirjautumisen sekä uloskirjautumisen. |
 |       | 0,5  | Muokkasin notifikaatiot alustavaan malliin fronttiin. |
-|       | 1   | Frontissa luotu alustavat eventit/harjoitukset ja niiden yksinkertainen näyttäminen. |
-| yht   | 13,5 | | 
+|       | 1    | Frontissa luotu alustavat eventit/harjoitukset ja niiden yksinkertainen näyttäminen. |
+| 26.4  | 1    | Ulkoasutyökalujen valintaa/kartoitusta ja CSS grid:in tutkimista. |
+|       | 2    | Frontissa yritin korjata harjoitusten näyttämistä henkilökohtaiseksi (toistaiseksi ei vielä toimi). |
+| 27.4. | 1    | Frontissa henkilökohtainen harjoitusten listaus toimii vohdoin ja lisäksi luotu mahdollisuus lisätä uusia harjoituksia.|
+| yht   | 17,5 | | 
 
 
 ## Työn kuvaus
