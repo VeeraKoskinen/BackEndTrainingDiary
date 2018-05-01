@@ -67,7 +67,7 @@ eventsRouter.delete('/:id', async (request, response) => {
     }
 
     await Eventti.findByIdAndRemove(request.params.id)
-    response.status(400).end()
+    response.status(200).end()
 
   } catch (exception) {
     console.log("Catch, exception: ", exception)
