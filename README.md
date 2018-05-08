@@ -14,7 +14,9 @@
 | 27.4. | 1    | Frontissa henkilökohtainen harjoitusten listaus toimii vohdoin ja lisäksi luotu mahdollisuus lisätä uusia harjoituksia.|
 | 1.5.  | 2    | Loin fronttiin poistomahdollisuuden harjoituksille. |
 |       | 0,25 | Lisäsin poistamiseen varmistusikkunan. |
-| yht   | 19,75| | 
+| 7.5.  | 2    | Herokuun vientiä (tietokantayhteys ei vieläkään toimi). |
+| 8.5.  | 1,5  | Herokuun viennin jatkoa.. Nyt ohjelma toimii. |
+| yht   | 23,25| | 
 
 
 ## Työn kuvaus
