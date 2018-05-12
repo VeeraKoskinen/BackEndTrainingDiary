@@ -16,7 +16,9 @@
 |       | 0,25 | Lisäsin poistamiseen varmistusikkunan. |
 | 7.5.  | 2    | Herokuun vientiä (tietokantayhteys ei vieläkään toimi). |
 | 8.5.  | 1,5  | Herokuun viennin jatkoa.. Nyt ohjelma toimii. |
-| yht   | 23,25| | 
+| 11.5. | 5    | Ulkoasutyökaluihin perehtymistä (css+grid), ulkoasun suunnittelua ja kuvatiedostojen tallentamisen suunnittelua |
+| 12.5. | 4,25 | Ulkoasun kanssa jatkoa. Alustava layoutti valmis ja herokussa. |
+| yht   | 32,5 | | 
 
 
 ## Työn kuvaus
@@ -24,4 +26,4 @@ Tarkoituksena on luoda harjoituspäiväkirjasovellus, johon on mahdollista liitt
 
 
 ### Linkki fronttiin:
-[https://github.com/VeeraKoskinen/FrontEndTrainingDiary][https://github.com/VeeraKoskinen/FrontEndTrainingDiary]
+[https://github.com/VeeraKoskinen/FrontEndTrainingDiary] https://github.com/VeeraKoskinen/FrontEndTrainingDiary
