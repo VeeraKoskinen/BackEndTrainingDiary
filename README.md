@@ -18,7 +18,8 @@
 | 8.5.  | 1,5  | Herokuun viennin jatkoa.. Nyt ohjelma toimii. |
 | 11.5. | 5    | Ulkoasutyökaluihin perehtymistä (css+grid), ulkoasun suunnittelua ja kuvatiedostojen tallentamisen suunnittelua |
 | 12.5. | 4,25 | Ulkoasun kanssa jatkoa. Alustava layoutti valmis ja herokussa. |
-| yht   | 32,5 | | 
+| 14.5. | 4,5  | Kuva, pdf ja videotiedostoja varten dropbox:in liittämistä ja tutustumista frontissa. |
+| yht   | 37   | | 
 
 
 ## Työn kuvaus
