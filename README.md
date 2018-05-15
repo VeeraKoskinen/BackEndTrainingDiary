@@ -19,7 +19,9 @@
 | 11.5. | 5    | Ulkoasutyökaluihin perehtymistä (css+grid), ulkoasun suunnittelua ja kuvatiedostojen tallentamisen suunnittelua |
 | 12.5. | 4,25 | Ulkoasun kanssa jatkoa. Alustava layoutti valmis ja herokussa. |
 | 14.5. | 4,5  | Kuva, pdf ja videotiedostoja varten dropbox:in liittämistä ja tutustumista frontissa. |
-| yht   | 37   | | 
+| 15.5. | 4,25 | React-dropzonen lisäys fronttiin ja tiedostotyypin muokkaus Base64 |
+|       | 3,5  | Backendin yhdistämistä Imguriin, jonne tarkoitus säilöä kuvatiedostot.(vielä kesken) |
+| yht   | 44,75| | 
 
 
 ## Työn kuvaus
