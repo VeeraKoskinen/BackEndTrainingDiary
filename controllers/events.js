@@ -1,4 +1,5 @@
 const eventsRouter = require('express').Router()
+const imgurRouter = require('./imgur')
 const Eventti = require('../models/eventti')
 const User = require('../models/user')
 const jwt = require('jsonwebtoken')
@@ -17,7 +18,10 @@ eventsRouter.post('/', async (request, response) => {
     console.log("try:")
     const body = request.body
     console.log(request.token)
+    console.log(body)
     const decodedToken = jwt.verify(request.token, process.env.SECRET)
+
+    imgurRouter.sendImagesToImgur(body.attachments)
 
     if (!request.token || !decodedToken.id) {
       return response.status(401).json({ error: 'token missing or invalid' })
