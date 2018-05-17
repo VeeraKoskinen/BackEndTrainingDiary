@@ -35,7 +35,7 @@ attachmentRouter.post('/', async (request, response) => {
         response.json(Attachment.format(savedAttachment))
 
     } catch (exception) {
-        console.log("catch:")
+        console.log("attachment controller catch:")
         console.log(exception)
         response.status(500).json({ error: 'something went wrong...' })
     }

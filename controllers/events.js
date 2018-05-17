@@ -48,7 +48,7 @@ eventsRouter.post('/', async (request, response) => {
     response.json(Eventti.format(savedEventti))
 
   } catch (exception) {
-    console.log("catch:")
+    console.log("events controller catch:")
     if (exception.name === 'JsonWebTokenError') {
       response.status(401).json({ error: exception.message })
     } else {
