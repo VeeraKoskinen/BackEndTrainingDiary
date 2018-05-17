@@ -21,7 +21,8 @@
 | 14.5. | 4,5  | Kuva, pdf ja videotiedostoja varten dropbox:in liittämistä ja tutustumista frontissa. |
 | 15.5. | 4,25 | React-dropzonen lisäys fronttiin ja tiedostotyypin muokkaus Base64 |
 |       | 3,5  | Backendin yhdistämistä Imguriin, jonne tarkoitus säilöä kuvatiedostot.(vielä kesken) |
-| yht   | 44,75| | 
+| 17.5. | 6,5  | Backend saa vihdoin uploadattua kuvia imguriin ja imgur palauttaa kuvan osoitteen. Tallennus mlabiin jäi vielä kesken. |
+| yht   | 51,25| | 
 
 
 ## Työn kuvaus
