@@ -22,11 +22,13 @@
 | 15.5. | 4,25 | React-dropzonen lisäys fronttiin ja tiedostotyypin muokkaus Base64 |
 |       | 3,5  | Backendin yhdistämistä Imguriin, jonne tarkoitus säilöä kuvatiedostot.(vielä kesken) |
 | 17.5. | 6,5  | Backend saa vihdoin uploadattua kuvia imguriin ja imgur palauttaa kuvan osoitteen. Tallennus mlabiin jäi vielä kesken. |
-| yht   | 51,25| | 
+| 27.5. | 3    | Kuvien lataaminen imguriin ja poistaminen sieltä toimintaan viimein. |
+|       | 1,25 | Frontissa quick fixejä herokua varten. Sovelluksen pitäisi nyt skaalautua niin kännykälle kuin tietokoneellekin. |
+| yht   | 55,5 | | 
 
 
 ## Työn kuvaus
-Tarkoituksena on luoda harjoituspäiväkirjasovellus, johon on mahdollista liittää kommentteja, kuvija sekä videoita yksittäiseen harjoitukseen liittyen. Jokaisella sovelluksen käyttäjällä on omat tunnukset joilla k'yttäjä pääsee omiin harjoitustietoihinsa käsiksi.
+Tarkoituksena on luoda harjoituspäiväkirjasovellus, johon on mahdollista liittää kommentteja, kuvia sekä videoita yksittäiseen harjoitukseen liittyen. Jokaisella sovelluksen käyttäjällä on omat tunnukset, joilla käyttäjä pääsee omiin harjoitustietoihinsa käsiksi.
 
 
 ### Linkki fronttiin:
