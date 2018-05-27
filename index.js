@@ -25,7 +25,7 @@ mongoose.Promise = global.Promise
 
 app.use(cors())
 app.use(morgan('tiny'))
-app.use(bodyParser.json())
+app.use(bodyParser.json({ limit: '10mb' }))
 app.use(express.static('build'))
 app.use(middleware.logger)
 app.use(middleware.tokenExtractor)  
@@ -33,6 +33,7 @@ app.use(middleware.tokenExtractor)
 app.use('/api/events', eventsRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)
+
 
 app.use(middleware.error)
 
