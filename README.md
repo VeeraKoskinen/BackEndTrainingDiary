@@ -24,7 +24,8 @@
 | 17.5. | 6,5  | Backend saa vihdoin uploadattua kuvia imguriin ja imgur palauttaa kuvan osoitteen. Tallennus mlabiin jäi vielä kesken. |
 | 27.5. | 3    | Kuvien lataaminen imguriin ja poistaminen sieltä toimintaan viimein. |
 |       | 1,25 | Frontissa quick fixejä herokua varten. Sovelluksen pitäisi nyt skaalautua niin kännykälle kuin tietokoneellekin. |
-| yht   | 55,5 | | 
+|       | 1,5  | Sivujen päivittymisen korjailua ja tämän hetken version  herokuun vienti.|
+| yht   | 57   | | 
 
 
 ## Työn kuvaus
