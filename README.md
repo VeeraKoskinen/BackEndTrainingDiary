@@ -32,6 +32,11 @@
 ## Työn kuvaus
 Tarkoituksena on luoda harjoituspäiväkirjasovellus, johon on mahdollista liittää kommentteja, kuvia sekä videoita yksittäiseen harjoitukseen liittyen. Jokaisella sovelluksen käyttäjällä on omat tunnukset, joilla käyttäjä pääsee omiin harjoitustietoihinsa käsiksi.
 
+## Ohjeet sovelluksen käyttöön
+Sovelluksen käyttöön tarvitset tunnukset, jotka voi toistaiseksi luoda vain suoralla tietokantakutsulla.
+Siirry sovelluslinkin kautta sovellukseen ja kirjaudu sisään lomakkeen kautta. Voit nyt tarkastella tarkemmin kirjaamiasi harjoituksia klikkaamalla harjoituksen otsikkoa, jolloin tarkempi seloste aukeaa. Painamalla otsikkoa uudelleen saat suljettua tarkemman selosteen. Jos haluat lisätä uuden harjoituksen paina "Add a new training", jolloin uuden harjoituksen lisäämiseen vaadittava lomake aukeaa. Otsikko on ainoastaan pakollinen, mutta suotavaa ja fiksua on lisätä tietoa harjoituksesta sekä mahdollisia kuvia tai gif-videoita harjoitukseen liittyen, jotta siihen on helpompi palata tarvittaessa jälkeenpäin. Tiedostojen koko ei kuitenkaan saa ylittää 10Mb:tä.
+
+ Kun harjoituksesi on valmis voit lisätä sen alla olevasta painikkeesta. Jos taas et halua lähettää luomaasi harjoitusta paina "cancel". Tällöin kirjoittamasi teksti ei katoa, mutta uuteen harjoitukseen lisäämäsi liitteet poistuvat. Harjoitukset eivät toistaiseksi mene mihinkään tietoiseen järjestykseen eli lisäämäsi harjoitus voi löytyä aiempien harjoitusten seasta, valitettavasti. Positiivista kuitenkin on, että sovelluksen tulisi toimia ja skaalautua yhtälailla niin puhelimelle, tabletille kuin tietokoneellekin.  
 
 ### Linkki fronttiin:
 [https://github.com/VeeraKoskinen/FrontEndTrainingDiary](https://github.com/VeeraKoskinen/FrontEndTrainingDiary)
