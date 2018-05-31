@@ -25,7 +25,8 @@
 | 27.5. | 3    | Kuvien lataaminen imguriin ja poistaminen sieltä toimintaan viimein. |
 |       | 1,25 | Frontissa quick fixejä herokua varten. Sovelluksen pitäisi nyt skaalautua niin kännykälle kuin tietokoneellekin. |
 |       | 1,5  | Sivujen päivittymisen korjailua ja tämän hetken version  herokuun vienti.|
-| yht   | 57   | | 
+| 31.5. | 2    | Pieni korjaus backin ja uusi palautusta varten luotu build ilman ylimääräisiä console.logeja sekä esimerkkidataa.|
+| yht   | 59   | | 
 
 
 ## Työn kuvaus
@@ -33,4 +34,7 @@ Tarkoituksena on luoda harjoituspäiväkirjasovellus, johon on mahdollista liitt
 
 
 ### Linkki fronttiin:
-[https://github.com/VeeraKoskinen/FrontEndTrainingDiary] https://github.com/VeeraKoskinen/FrontEndTrainingDiary
+[https://github.com/VeeraKoskinen/FrontEndTrainingDiary](https://github.com/VeeraKoskinen/FrontEndTrainingDiary)
+
+### Linkki Herokuun:
+[https://pure-taiga-44733.herokuapp.com/] (linkki sovellukseen)
