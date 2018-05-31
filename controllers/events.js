@@ -47,7 +47,7 @@ eventsRouter.post('/', async (request, response) => {
       return response.status(401).json({ error: 'token missing or invalid' })
     }
     
-    if (body.title === undefined) {
+    if (body.title === undefined || body.title === "") {
       return response.status(400).json({ error: 'title is missing' })
     }
     const res = await imgurRouter.sendImagesToImgur(body.attachments)
@@ -113,15 +113,20 @@ eventsRouter.put('/:id', async (request, response) => {
     const decodedToken = jwt.verify(request.token, process.env.SECRET)
     const body = request.body
     const user = await User.findById(decodedToken.id)
+    
+    if (!request.token || !decodedToken.id) {
+      return response.status(401).json({ error: 'token missing or invalid' })
+    }
 
-    if (body.title === undefined) {
+    if (body.title === undefined || body.title === "") {
       return response.status(400).json({ error: 'title is missing' })
     }
 
     const newEventti = {
       title: body.title,
       content: body.content,
-      user: user
+      user: user,
+      attachments: body.attachments
     }
 
     const updatedEventti = await Eventti.findByIdAndUpdate(request.params.id, newEventti, {new: true })
